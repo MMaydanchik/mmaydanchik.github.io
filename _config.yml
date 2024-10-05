@@ -10,9 +10,9 @@
 locale                   : "en-US"
 title                    : "Max Maydanchik"
 title_separator          : "-"
-name                     : &name "maxmaydanchik.com"
+name                     : &name "Max Maydanchik"
 description              : &description ""
-url                      : https://maxmaydanchik.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://mmaydanchik.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "MMaydanchik/maxmaydanchik.com"
 
