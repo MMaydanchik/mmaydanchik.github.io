@@ -18,7 +18,7 @@ Previously, I was a research assistant at Harvard University. I graduated with a
 <!-- I am a lifelong ([northside](https://www.youtube.com/watch?v=HOp8w2PgHlM)) Chicago sports fan, for better or for worse. -->
 
 <!-- Add a button to CV. No background color, add rect outline with rounded corners -->
-<a href="maxmaydanchik.com/files/CV_maydanchik_10-2024.pdf">CV</a>
+<a href="mmaydanchik.github.io/files/CV_maydanchik_10-2024.pdf">CV</a>
 
 Research
 ------
