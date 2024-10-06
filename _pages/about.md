@@ -11,7 +11,7 @@ redirect_from:
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
-I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research interests use tools from industrial organization for public and environmental economics questions. 
+I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research interests involve using tools from industrial organization for public and environmental economics questions. 
 
 Previously, I was a research assistant at Harvard University. I graduated with a degree in International Economics from [Georgetown University](https://www.georgetown.edu/jack-the-bulldog/).
 
