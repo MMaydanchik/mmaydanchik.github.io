@@ -25,7 +25,7 @@ Research
 
 ### Working Papers
 
-<m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m>
+<a href="/files/EVTrade.pdf"><m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m></a> \
 (with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot) \
 NBER Working Paper #33032, October 2024 
 
