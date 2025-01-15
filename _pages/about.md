@@ -47,6 +47,6 @@ We study electric vehicle (EV) tax credits in the US Inflation Reduction Act (IR
 
 ### Works In Progress
 <div>
-<m>"Local Misallocation of Rooftop Solar"</m> <br>
+<m>"Rooftop Solar: Efficiency Gains and Cost Declines"</m> <br>
 <m>"Subsidy Policy under Complementarity: EV and Solar Adoption in Texas"</m>
 </div>
