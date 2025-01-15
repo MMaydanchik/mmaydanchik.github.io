@@ -31,7 +31,7 @@ NBER Working Paper #33032, October 2024
 
 <details open>
 <summary>Links</summary>
-<a href="/files/EVTrade.pdf">Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog </a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a>
+<a href="/files/EVTrade.pdf">Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog </a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times</a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a>
 </details>
 
 <details closed>
