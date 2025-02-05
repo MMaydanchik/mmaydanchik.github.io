@@ -11,14 +11,14 @@ redirect_from:
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
-I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in consumer adoption of green technologies.
+I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in the adoption of green technologies and renewable power.
 
 Previously, I was a research assistant at Harvard University. I graduated with a degree in International Economics from [Georgetown University](https://www.georgetown.edu/jack-the-bulldog/).
 
 <!-- I am a lifelong ([northside](https://www.youtube.com/watch?v=HOp8w2PgHlM)) Chicago sports fan, for better or for worse. -->
 
 <!-- Add a button to CV. No background color, add rect outline with rounded corners -->
-<a href="/files/CV_maydanchik_10-2024.pdf">CV</a>
+<a href="/files/CV_maydanchik.pdf">CV</a>
 
 Research
 ------
@@ -47,6 +47,5 @@ We study electric vehicle (EV) tax credits in the US Inflation Reduction Act (IR
 
 ### Works In Progress
 <div>
-<m>"Rooftop Solar: Efficiency Gains and Cost Declines"</m> <br>
-<m>"Subsidy Policy under Complementarity: EV and Solar Adoption in Texas"</m>
+<m>"Planning for Solar in the Renewable Energy Transition"</m> <br>
 </div>
