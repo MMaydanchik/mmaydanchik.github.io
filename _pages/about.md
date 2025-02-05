@@ -11,7 +11,7 @@ redirect_from:
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
-I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research interests involve using tools from industrial organization for public and environmental economics questions. 
+I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in consumer adoption of green technologies.
 
 Previously, I was a research assistant at Harvard University. I graduated with a degree in International Economics from [Georgetown University](https://www.georgetown.edu/jack-the-bulldog/).
 
@@ -31,7 +31,7 @@ NBER Working Paper #33032, October 2024
 
 <details open>
 <summary>Links</summary>
-<a href="/files/EVTrade.pdf">Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog </a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a>
+<a href="/files/EVTrade.pdf">Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog </a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times</a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a>
 </details>
 
 <details closed>
@@ -47,6 +47,6 @@ We study electric vehicle (EV) tax credits in the US Inflation Reduction Act (IR
 
 ### Works In Progress
 <div>
-<m>"Local Misallocation of Rooftop Solar"</m> <br>
+<m>"Rooftop Solar: Efficiency Gains and Cost Declines"</m> <br>
 <m>"Subsidy Policy under Complementarity: EV and Solar Adoption in Texas"</m>
 </div>
