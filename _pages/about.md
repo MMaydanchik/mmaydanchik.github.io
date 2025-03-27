@@ -47,5 +47,5 @@ We study electric vehicle (EV) tax credits in the US Inflation Reduction Act (IR
 
 ### Works In Progress
 <div>
-<m>"Planning for Solar in the Renewable Energy Transition"</m> <br>
+<m>"Search and Marketing Costs in Residential Solar"</m> <br>
 </div>
