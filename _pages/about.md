@@ -11,9 +11,9 @@ redirect_from:
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
-I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in the adoption of clean technologies and renewable generation.
+I'm a **fourth-year PhD student** in the **Economics** department at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in clean energy markets and the adoption of new technologies.
 
-Previously, I was a research assistant at Harvard University. I graduated with a degree in International Economics from [Georgetown University](https://www.georgetown.edu/jack-the-bulldog/).
+Previously, I was a research assistant at Harvard University. I graduated with a degree in economics from Georgetown University.
 
 <!-- I am a lifelong ([northside](https://www.youtube.com/watch?v=HOp8w2PgHlM)) Chicago sports fan, for better or for worse. -->
 
