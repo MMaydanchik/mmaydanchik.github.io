@@ -11,7 +11,7 @@ redirect_from:
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
-I'm a **fifth-year PhD candidate** in the **Economics** department at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in clean energy markets and the adoption of new technologies.
+I'm a **fifth-year PhD candidate** in the **Economics Department** at the **University of Chicago**. My research involve using tools from industrial organization for public and environmental economics questions. I am particularly interested in clean energy markets and the adoption of new technologies.
 
 Previously, I was a research assistant at Harvard University. I graduated with a degree in economics from Georgetown University.
 
