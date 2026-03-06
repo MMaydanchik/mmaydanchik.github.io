@@ -36,10 +36,9 @@ NBER Working Paper #33032, March 2026 (*Newly updated!*)
 </details>
 
 <details open>
+<summary></summary>
 <summary>Links</summary>
-<div style="background-color: #f0f0f0; padding: 10px;">
 <a href="/files/EVTrade.pdf">Link to Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog</a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times (October 2024)</a> | <a href="https://www.nytimes.com/2024/11/25/business/trump-electric-vehicle-tax-credit.html">New York Times (November 2024)</a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a> | <a href="https://finance.yahoo.com/news/not-trivial-ev-sales-could-drop-nearly-30-if-trump-repeals-tax-credit-194135070.html">Yahoo Finance</a>
-</div>
 </details>
 
 <details open>
