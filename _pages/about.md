@@ -8,6 +8,8 @@ redirect_from:
 ---
 <style>
   m {color: #800000;}
+  a.maroon {color: #800000; text-decoration: underline;}
+  a:hover {color: #600000;}
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
@@ -18,14 +20,14 @@ Previously, I was a research assistant at Harvard University. I graduated with a
 <!-- I am a lifelong ([northside](https://www.youtube.com/watch?v=HOp8w2PgHlM)) Chicago sports fan, for better or for worse. -->
 
 <!-- Add a button to CV. No background color, add rect outline with rounded corners -->
-<a href="/files/CV_maydanchik.pdf">CV</a>
+<a href="/files/CV_maydanchik.pdf" class="maroon">CV</a>
 
 Research
 ------
 
 ### Working Papers
 
-<a href="/files/EVTrade.pdf"><m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m></a> \
+<a href="/files/EVTrade.pdf" class="maroon"><m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m></a> \
 (with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot) \
 NBER Working Paper #33032, March 2026 (*Newly updated!*) 
 
