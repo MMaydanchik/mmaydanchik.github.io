@@ -27,17 +27,21 @@ Research
 
 <a href="/files/EVTrade.pdf"><m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m></a> \
 (with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot) \
-NBER Working Paper #33032, October 2024 
+NBER Working Paper #33032, March 2026 (**UPDATED**) 
+
+<details open>
+<img src="/images/EVTrade_Fig3.png" alt="Description" width="600">
+</details closed>
 
 <details open>
 <summary>Links</summary>
-<a href="/files/EVTrade.pdf">Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog </a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times</a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a>
+<a href="/files/EVTrade.pdf">Link to Paper</a> | <a href="https://www.nber.org/papers/w33032">NBER WP</a> | <a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/"> Energy Institute Blog </a> | <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times (October 2024) </a> | <a href="https://www.nytimes.com/2024/11/25/business/trump-electric-vehicle-tax-credit.html">New York Times (November 2024) </a> | <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> | <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a> | <a href="https://finance.yahoo.com/news/not-trivial-ev-sales-could-drop-nearly-30-if-trump-repeals-tax-credit-194135070.html" Yahoo Finance</a>
 </details>
 
 <details closed>
 <summary>Abstract</summary>
 <div style="background-color: #f0f0f0; padding: 10px;">
-We study electric vehicle (EV) tax credits in the US Inflation Reduction Act (IRA), the largest climate policy in US history, with three goals. First, we provide the first ex-post microeconomic welfare analysis of this central component of the IRA. Event studies around changes in eligibility for EV tax credits show credits were largely passed-through to consumers. Additionally, domestic content restrictions on tax credits for purchased vehicles have driven enormous shifts to leasing. Our equilibrium model shows that compared to pre-IRA policy, IRA EV credits generated $1.87 of US benefits per dollar spent in 2023, at taxpayer cost of $32,000 per additional EV sold. Compared to scenarios with no EV credits, however, the IRA EV credits created only $1.02 of benefits per dollar of government spending. Second, we characterize the gains from policies targeting heterogeneity in externalities across vehicles. We find that relative to uniform credits, differentiating credits across EVs according to their heterogeneous externalities would substantially increase policy benefits. Third, we quantify tradeoffs in the IRA EV credits between foreign and domestic welfare and between trade and the environment. We find that the IRA EV credits benefit the environment but undermine trade, since they decrease global carbon emissions but use profit shifting to decrease foreign producer surplus. A controversial IRA loophole that removes domestic content restrictions on tax credits for EV leases has negative domestic benefits.
+We provide the first ex post microeconomic welfare analysis of the electric vehicle (EV) tax credits in the Inflation Reduction Act (IRA). Relative to pre-IRA policy, the credits generated $1.96 in domestic benefits per dollar of government spending, with taxpayer cost of $36,500 per additional EV. Relative to having no EV credits, they yielded $1.11 in domestic benefits per dollar of government spending. A leasing loophole that sidestepped domestic content rules created negative domestic benefits. A prominent example of green industrial policy, the credits harmed foreign countries by shifting surplus to domestic producers and helped them by decreasing CO_{2} emissions.
 </div>
 </details>
 
