@@ -9,7 +9,7 @@ redirect_from:
 <style>
   m {color: #800000;}
   a.maroon {color: #800000; text-decoration: underline;}
-  a:hover {color: #600000;}
+  a:hover {color: #3d0000ff;}
 </style>
 
 <h2 style="margin-top: 0;">About me</h2>
