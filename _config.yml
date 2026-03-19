@@ -25,7 +25,11 @@ author:
   avatar           : "headshot.png"
   name             : ""
   pronouns         : # example: "she/her"  
-  bio              : "PhD student / University of Chicago / Kenneth C. Griffin Department of Economics"
+  bio              : |
+    PhD Candidate
+    University of Chicago
+    Department of Economics
+  cv               : "/files/CV_maydanchik.pdf"
   email            : "mmaydanchik@uchicago.edu" 
   github           : "MMaydanchik" 
   linkedin         : "max-maydanchik-794aa3115/"
