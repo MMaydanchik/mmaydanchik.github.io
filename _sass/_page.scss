@@ -6,21 +6,31 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
+  @include breakpoint($large) {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
   @include breakpoint($x-large) {
     max-width: $x-large;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
 .page {
   @include breakpoint($large) {
-    @include span(10 of 12 last);
-    @include prefix(0.5 of 12);
-    @include suffix(2 of 12);
+    float: none;
+    width: auto;
+    margin: 0;
+    flex: 1 1 auto;
+    min-width: 0;
   }
 
   .page__inner-wrap {
@@ -56,7 +66,7 @@
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: 0.95em;
   }
 
   /* paragraph indents */

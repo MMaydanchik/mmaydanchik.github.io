@@ -13,15 +13,18 @@
   @include clearfix();
   margin-bottom: 1em;
 
-  @media screen and (min-width: $sidebar-screen-min-width) {
-    height: 100vh;
+  @media screen and (min-width: $large) {
+    height: calc(100vh - #{$masthead-height});
     overflow-y: auto;               // Add scrollbar if the sidebar is too long
-    position: fixed;
-    padding-top: $masthead-height;
+    position: sticky;
+    top: $masthead-height;
+    padding-top: 0;
   }
 
   @include breakpoint($large) {
-    @include span(2 of 12);
+    float: none;
+    width: 240px;
+    flex: 0 0 240px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -90,11 +93,13 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 0%;
+    max-width: 200px;
+    border-radius: 5%;
+    display: block;
+    margin-left: 0;
 
     @include breakpoint($large) {
-      padding: 5px;
+      padding: 0;
       border: 0px solid $border-color;
     }
   }
@@ -130,7 +135,7 @@
 
 .sidebar .author__desktop {
   display: none;
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: $large) {
     display: block;
   }
 }
@@ -144,8 +149,10 @@
   }
 }
 
-.author__bio {
+.sidebar .author__bio {
   margin: 0;
+  font-size: $type-size-6;
+  line-height: 1.35;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -179,6 +186,12 @@
       display: none;
     }
   }
+
+  @media screen and (max-width: ($large - 1px)) {
+    button {
+      display: none;
+    }
+  }
 }
 
 .author__urls {
@@ -205,6 +218,34 @@
     box-shadow: none;
   }
 
+  @media screen and (max-width: ($large - 1px)) {
+    display: block;
+    position: relative;
+    right: auto;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+    z-index: 10;
+    white-space: normal;
+
+    li {
+      display: inline-block;
+      margin-right: 0.75em;
+      margin-bottom: 0.35em;
+      white-space: nowrap;
+    }
+
+    a {
+      display: inline;
+      margin-bottom: 0;
+      padding-right: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
   &:before {
     display: block;
     content: "";
@@ -218,6 +259,10 @@
     z-index: 0;
 
     @include breakpoint($large) {
+      display: none;
+    }
+
+    @media screen and (max-width: ($large - 1px)) {
       display: none;
     }
   }
@@ -235,6 +280,10 @@
     z-index: 1;
 
     @include breakpoint($large) {
+      display: none;
+    }
+
+    @media screen and (max-width: ($large - 1px)) {
       display: none;
     }
   }
