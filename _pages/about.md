@@ -58,3 +58,8 @@ We provide the first ex post microeconomic welfare analysis of the electric vehi
 <div>
 <m>"Search and Marketing Costs in Residential Solar"</m> <br>
 </div>
+
+### Miscellaneous/Code
+<div>
+<a href="/files/NL_sampling.pdf" class="maroon"> A short note on how to simulate Nested Logit draws in closed-form </a> 
+</div>
