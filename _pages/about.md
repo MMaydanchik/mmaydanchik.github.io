@@ -62,7 +62,7 @@ My research uses tools from <u>industrial organization</u> for <u>public & envir
 
 <a href="/files/EVTrade.pdf" class="maroon"><m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m></a> \
 (with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot) \
-NBER Working Paper #33032, March 2026 (*Newly updated!*) 
+NBER Working Paper #33032, March 2026 (**Revise and Resubmit** at *American Economic Review*) 
 
 <details open>
 <summary>Abstract</summary>
@@ -90,7 +90,7 @@ NBER Working Paper #33032, March 2026 (*Newly updated!*)
 
 ### Works In Progress
 <div>
-"Search and Marketing Costs in Residential Solar"
+"Salesforce Competition in Residential Solar"
 </div>
 
 ### Miscellaneous/Code
