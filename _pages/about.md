@@ -167,7 +167,7 @@ Hi! I'm a PhD candidate in the Economics Department at the University of Chicago
   <div class="paper-body">
     <div class="paper-text">
       <a class="paper-title" href="/files/NLsampling.pdf">Exact Simulation of Nested Logit Draws</a>
-      <div class="paper-meta">In preparation for submission</div>
+      <!-- <div class="paper-meta">In preparation for submission</div> -->
 
       <input type="checkbox" id="nl-abstract" class="toggle-radio">
       <div class="toggle-row">
