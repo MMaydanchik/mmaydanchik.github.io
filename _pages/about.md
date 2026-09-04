@@ -56,8 +56,6 @@ I'm a <u>fifth-year PhD candidate</u> in the Economics Department at the <u>Univ
 
 My research uses tools from <u>industrial organization</u> for <u>public & environmental economics</u> questions. I am particularly interested in markets for and the adoption of new green technologies.
 
-<!-- I am a lifelong ([northside](https://www.youtube.com/watch?v=HOp8w2PgHlM)) Chicago sports fan, for better or for worse. -->
-
 ### Working Papers
 
 <a href="/files/EVTrade.pdf" class="maroon"><m>"The Effects of "Buy American": Electric Vehicles and the Inflation Reduction Act"</m></a> \
@@ -84,25 +82,35 @@ NBER Working Paper #33032, March 2026 (**Revise and Resubmit** at *American Econ
 </div>
 </details>
 
-<!-- <details closed>
-<summary>Media coverage</summary>
-</details> -->
+
+<div>
+<a href="/files/NLsampling.pdf" class="maroon"> Exact Simulation of Nested Logit Draws </a> 
+</div>
+In preparation for submission.
+
+<details open>
+<summary>Abstract</summary>
+<div class="details-grid">
+  <div class="paper-abstract" style="border: 2px solid #f0f0f0; background-color: inherit; padding: 10px;">
+  Nested logit models are simple to estimate, but nested logit errors have long resisted closed-form simulation. Galichon (2022) resolves a longstanding conjecture to show that nested logit errors decompose into standard Gumbel and positive stable components. I combine this result with the Kanter (1975) representation of positive stable variables to demonstrate a method for simulating error vectors for arbitrary trees. The method is fast, exact, and scales well. Monte Carlo simulations and timing benchmarks demonstrate its advantages over existing methods employing numerical inversion or moment-matching. It is a practical tool for discrete choice applications requiring full vectors of correlated shocks.
+  </div>
+
+  <div class="paper-figure" style="border: 2px solid #f0f0f0; padding: 10px;">
+  <img src="/images/NLsampling_Fig2c.png" alt="Description">
+  </div>
+</div>
+</details>
+
+<details closed>
+<summary>Links</summary>
+<div class="paper-links" style="border: 2px solid #f0f0f0; background-color: inherit; padding: 10px;">
+<a href="/files/NLsampling.pdf">Link to Paper</a>
+</div>
+</details>
+
 
 ### Works In Progress
 <div>
 "Salesforce Competition in Residential Solar"
 </div>
 
-### Miscellaneous/Code
-<div>
-<a href="/files/NL_sampling.pdf" class="maroon"> A short note on how to simulate Nested Logit draws in closed-form </a> 
-</div>
-
-<details open>
-<summary>Illustration</summary>
-<div class="details-grid details-grid--max-half">
-  <div class="paper-figure" style="border: 2px solid #f0f0f0; padding: 10px;">
-  <img src="/images/NLSampling_Fig2.png" alt="Description">
-  </div>
-</div>
-</details>
