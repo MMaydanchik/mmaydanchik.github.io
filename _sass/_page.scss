@@ -5,9 +5,9 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  margin-top: 0;
+  padding-left: 6.75rem;
+  padding-right: 6.75rem;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -18,9 +18,9 @@
   }
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    max-width: $content-max-width;
+    padding-left: 9rem;
+    padding-right: 9rem;
   }
 }
 
@@ -29,6 +29,7 @@
     float: none;
     width: auto;
     margin: 0;
+    padding-top: 22px;
     flex: 1 1 auto;
     min-width: 0;
   }
