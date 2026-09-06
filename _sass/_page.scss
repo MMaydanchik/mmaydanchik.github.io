@@ -25,7 +25,15 @@
     float: none;
     width: auto;
     margin: 0;
-    padding-top: 8px;
+    /* Sit the body text symmetrically between the masthead rule above and the
+       first section heading below: measured ink-to-ink, the gap down to
+       "Working Papers" is 43px, so the gap from the rule up top matches it.
+       The photo deliberately keeps its own (tighter) offset, so the two
+       columns do not start at the same height.
+       Stated in px, not rem: the root font-size steps 16px -> 18px at
+       $medium, and this rule only applies from $large up, so 35.2px is a
+       stable value here whereas rem would silently rescale. */
+    padding-top: 35.2px;
     flex: 1 1 auto;
     min-width: 0;
   }

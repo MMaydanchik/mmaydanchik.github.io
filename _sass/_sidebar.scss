@@ -12,9 +12,18 @@
 
   @include clearfix();
   margin-bottom: 1em;
-  padding-top: 8px;
+
+  /* Balance the profile photo against the masthead rule using the site
+     title's BASELINE, not the bottom of the "y" descender. The descender
+     is the lowest ink, so spacing off it leaves the photo visually too
+     tight against "Max Ma_danchik". These values are the distance from the
+     title's baseline down to the rule (masthead height minus the baseline
+     offset of the flex-centred title): 14.5px at the 38px/22px mobile
+     masthead, 16px at the 52px/36px wide one. */
+  padding-top: 14.5px;
 
   @include breakpoint($large) {
+    padding-top: 16px;
     position: sticky;
     top: $masthead-height;
     float: none;

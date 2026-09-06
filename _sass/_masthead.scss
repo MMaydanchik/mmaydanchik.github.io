@@ -75,6 +75,13 @@
 }
 
 .site-title {
+  /* plain text, not a link: no hover colour, no underline, and none of the
+     greedy-nav link styling (that only targets `a`, so a span sidesteps it).
+     The nav script only reshuffles <li> children and skips
+     .masthead__menu-item--lg, so dropping the anchor does not affect it. */
+  display: block;
+  color: $masthead-title-color;
+  line-height: 1;
   font-size: 22px;
 
   @include breakpoint($large) {

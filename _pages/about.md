@@ -40,6 +40,11 @@ redirect_from:
   .toggle-row {
     display: flex;
     flex-wrap: wrap;
+    /* not the default `stretch`: stretch equalises flex items' MARGIN boxes,
+       so the theme's 3.6px bottom margin on <label> set the line height and
+       the zero-margin <a> pills stretched their border box to match, making
+       the links visibly taller than the dropdowns. */
+    align-items: center;
     gap: 0.5em;
     margin-top: 0.7em;
   }
@@ -50,6 +55,8 @@ redirect_from:
   }
   .toggle-btn {
     display: inline-block;
+    /* <label> picks up a bottom margin from the theme; <a> does not */
+    margin: 0;
     cursor: pointer;
     font-size: 0.8em;
     color: #767676;
