@@ -150,7 +150,7 @@ redirect_from:
 </style>
 
 Hi! I'm a PhD candidate in the Economics Department at the University of Chicago.<br>
-My research interests are in industrial organization and energy & environmental economics.
+My research interests are in industrial organization & energy and environmental economics.
 
 <div class="papers-section" markdown="0">
 
