@@ -3,24 +3,20 @@
    ========================================================================== */
 
 #main {
-  @include container;
   @include clearfix;
-  margin-top: 0;
-  padding-left: 6.75rem;
-  padding-right: 6.75rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: $gutter-narrow;
+  padding-right: $gutter-narrow;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
   @include breakpoint($large) {
     display: flex;
     align-items: flex-start;
-    gap: 1rem;
-  }
-
-  @include breakpoint($x-large) {
-    max-width: $content-max-width;
-    padding-left: 9rem;
-    padding-right: 9rem;
+    gap: 4%;
+    padding-left: $gutter-wide;
+    padding-right: $gutter-wide;
   }
 }
 
@@ -29,7 +25,7 @@
     float: none;
     width: auto;
     margin: 0;
-    padding-top: 22px;
+    padding-top: 8px;
     flex: 1 1 auto;
     min-width: 0;
   }

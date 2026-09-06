@@ -12,17 +12,15 @@
 
   @include clearfix();
   margin-bottom: 1em;
-
-  @media screen and (min-width: $large) {
-    position: sticky;
-    top: $masthead-height;
-    padding-top: 22px;
-  }
+  padding-top: 8px;
 
   @include breakpoint($large) {
+    position: sticky;
+    top: $masthead-height;
     float: none;
-    width: 240px;
-    flex: 0 0 240px;
+    /* proportional, like the page gutters, so zoom keeps the column ratio */
+    width: $sidebar-width;
+    flex: 0 0 $sidebar-width;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -30,11 +28,6 @@
     &:hover {
       opacity: 1;
     }
-  }
-
-  @include breakpoint($x-large) {
-    max-width: $sidebar-link-max-width;
-    padding-right: 0;
   }
 
   h2, h3, h4, h5, h6 {
@@ -77,24 +70,47 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
+/*
+   Mobile-first: the compact single-row profile is the default, and every
+   wide-screen override lives in a single `breakpoint($large)` block. Keeping
+   one breakpoint family (em-based, via the `breakpoint` mixin) avoids the
+   px-vs-em mismatch that left a band of viewport widths matching neither set
+   of rules at non-default zoom / font-size settings.
+*/
+
+.author__profile-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
+  }
+}
+
+.author__avatar {
+  display: block;
+  flex: 0 0 72px;
+  width: 72px;
+  align-self: flex-start;
+
+  @include breakpoint($large) {
+    flex: 0 0 auto;
     height: auto;
+    /* Full sidebar width, so the image's right edge lines up with the name and
+       affiliation text underneath it. A narrower avatar (the theme's original
+       200px in a 240px column) leaves the text sticking out past the picture,
+       which reads as a ragged, misaligned column. */
+    width: 100%;
   }
 
   img {
-    max-width: 200px;
-    border-radius: 5%;
     display: block;
+    width: 100%;
+    max-width: 100%;
     margin-left: 0;
+    border-radius: 5%;
 
     @include breakpoint($large) {
       padding: 0;
@@ -104,16 +120,17 @@
 }
 
 .author__content {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 15px;
-  padding-right: 25px;
+  display: block;
+  flex: 1 1 140px;
+  min-width: 0;
+  padding-left: 0;
+  padding-right: 12px;
   line-height: 1;
+  align-self: flex-start;
 
   @include breakpoint($large) {
-    display: block;
+    flex: 0 1 auto;
     width: 100%;
-    padding-left: 0;
     padding-right: 0;
   }
 }
@@ -133,7 +150,8 @@
 
 .sidebar .author__desktop {
   display: none;
-  @media screen and (min-width: $large) {
+
+  @include breakpoint($large) {
     display: block;
   }
 }
@@ -160,148 +178,106 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
-  vertical-align: middle;
+  display: block;
+  flex: 0 1 190px;
+  max-width: 190px;
+  margin-left: auto;
   font-family: $sans-serif;
+  text-align: right;
+  align-self: flex-start;
   z-index: 10;
-  position: relative;
   cursor: pointer;
+
+  @include breakpoint($large) {
+    flex: 0 1 auto;
+    max-width: none;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  /* the "Follow" toggle belongs to the dropdown behaviour this layout replaced */
+  button {
+    display: none;
+  }
 
   li:last-child {
     a {
       margin-bottom: 0;
     }
   }
-
-  @include breakpoint($large) {
-    display: block;
-  }
-
-  button {
-    margin-bottom: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: ($large - 1px)) {
-    button {
-      display: none;
-    }
-  }
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
-  right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  display: block;
+  position: relative;
+  right: auto;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  white-space: normal;
+  text-align: right;
+  line-height: 1.35;
+  z-index: 10;
   cursor: default;
 
-  @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-  }
-
-  @media screen and (max-width: ($large - 1px)) {
-    display: block;
-    position: relative;
-    right: auto;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
-    z-index: 10;
-    white-space: normal;
-
-    li {
-      display: inline-block;
-      margin-right: 0.75em;
-      margin-bottom: 0.35em;
-      white-space: nowrap;
-    }
-
-    a {
-      display: inline;
-      margin-bottom: 0;
-      padding-right: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }
-
-  &:before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -11px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: $border-color transparent;
-    z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-
-    @media screen and (max-width: ($large - 1px)) {
-      display: none;
-    }
-  }
-
-  &:after {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% - 10px);
-    width: 0;
-    border-style: solid;
-    border-width: 0 10px 10px;
-    border-color: #fff transparent;
-    z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
-
-    @media screen and (max-width: ($large - 1px)) {
-      display: none;
-    }
-  }
-
   li {
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0;
     white-space: nowrap;
   }
 
   a {
-    display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    display: inline;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     color: inherit;
-    font-size: $type-size-5;
+    font-size: 0.72em;
     text-decoration: none;
 
     &:hover {
       text-decoration: underline;
     }
   }
+
+  .icon-pad-right {
+    padding-right: 0.3em;
+    margin-right: 0.3em;
+  }
+
+  @include breakpoint($large) {
+    text-align: left;
+    line-height: inherit;
+
+    /* In the stacked layout the vertical rhythm lives on the `li`, not the
+       `a`. `.author__urls-wrapper li:last-child a` zeroes the anchor's margin,
+       so spacing hung off the anchor collapses at the seam between the two
+       lists and the items stop being evenly spaced. Keeping it on the `li`
+       (0.5em, matching the `ul li` rule in _base.scss) spaces every item
+       identically, including items that have no anchor at all. */
+    li {
+      display: list-item;
+      margin-left: 0;
+      margin-bottom: 0.5em;
+    }
+
+    a {
+      display: block;
+      margin-bottom: 0;
+      padding-right: 5px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      font-size: $type-size-5;
+    }
+  }
+}
+
+.author__urls--row2 {
+  margin-top: 0;
 }

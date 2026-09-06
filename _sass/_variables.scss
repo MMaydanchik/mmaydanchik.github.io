@@ -43,7 +43,8 @@ $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
 /* masthead properties */
-$masthead-height            : 70px;
+$masthead-height            : 52px;
+$masthead-height-mobile     : 38px;
 
 /* Sidebar properties */
 $sidebar-screen-min-width   : 1024px;
@@ -133,6 +134,20 @@ $content-max-width          : 1680px !default;
 /*
    Grid
    ========================================================================== */
+
+/* Horizontal page gutters.
+   These are percentages on purpose. Browser zoom shrinks the CSS-pixel
+   viewport, so a gutter fixed in rem/px takes a different share of the screen
+   at every zoom level -- which is what made the text column and margins jump
+   around while zooming. Percentages keep the layout's proportions identical at
+   any zoom, so zooming only changes the text size. */
+$gutter-narrow              : 5% !default;
+$gutter-wide                : 12% !default;
+
+/* Sidebar width as a share of the content box (percentage for the same
+   zoom-stability reason as the gutters above). ~16.5% reproduces the previous
+   240px column on a 1920px-wide screen. */
+$sidebar-width              : 16.5% !default;
 
 $right-sidebar-width-narrow : 200px !default;
 $right-sidebar-width        : 300px !default;
