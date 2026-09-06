@@ -149,6 +149,13 @@ $gutter-wide                : 12% !default;
    240px column on a 1920px-wide screen. */
 $sidebar-width              : 16.5% !default;
 
+/* Below this the avatar, name and link list can no longer share one row
+   (72 + 140 + 190 + 2x12 gap = 426px of flex bases, vs 90% of the viewport),
+   so the links get a deliberate full-width row instead of being dropped into a
+   right-aligned island by an accidental flex-wrap. Set just above the natural
+   wrap point (~473px) so the wrap never happens by accident. */
+$profile-stack-max          : 480px !default;
+
 $right-sidebar-width-narrow : 200px !default;
 $right-sidebar-width        : 300px !default;
 $right-sidebar-width-wide   : 400px !default;

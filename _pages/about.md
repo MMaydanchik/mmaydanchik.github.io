@@ -100,10 +100,16 @@ redirect_from:
     flex: 1 1 auto;
     min-width: 0;
   }
+  /* A share of the entry, capped in px. A fixed-width figure kept its size
+     while the text column shrank with zoom, so it went from ~29% of the column
+     at 100% zoom to ~51% at 175% and swamped the text. The percentage keeps its
+     share of the entry constant at any zoom; max-width stops it growing past
+     its present size on wide screens. */
   .paper-body .paper-figure {
-    flex: 0 0 320px;
-    width: 320px;
-    height: 203px;
+    flex: 0 0 30%;
+    width: 30%;
+    max-width: 320px;
+    aspect-ratio: 320 / 203;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,12 +123,16 @@ redirect_from:
     display: block;
     border-radius: 2px;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 43.75em) { /* 700px, in ems to match the rest of the site */
     .paper-body {
       flex-direction: column;
     }
     .paper-body .paper-figure {
+      /* stacked: full width, natural height, and no basis along the column */
+      flex: 0 0 auto;
       width: 100%;
+      max-width: none;
+      aspect-ratio: auto;
       height: auto;
     }
     .paper-figure img {

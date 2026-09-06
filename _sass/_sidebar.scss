@@ -281,3 +281,24 @@
 .author__urls--row2 {
   margin-top: 0;
 }
+
+/* Narrow phones / very high zoom: give the links their own full-width row,
+   aligned to the same left edge as the avatar, rather than letting them wrap
+   into a right-aligned block with empty space beside it. */
+@include breakpoint(max-width $profile-stack-max) {
+  .author__urls-wrapper {
+    flex: 1 1 100%;
+    max-width: none;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .author__urls {
+    text-align: left;
+
+    li {
+      margin-left: 0;
+      margin-right: 0.9em;
+    }
+  }
+}
