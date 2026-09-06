@@ -149,7 +149,8 @@ redirect_from:
   }
 </style>
 
-Hi! I'm a PhD candidate in the Economics Department at the University of Chicago. My research interests are in industrial organization & environmental economics. I am particularly interested in markets for and the adoption of new green technologies.
+Hi! I'm a PhD candidate in the Economics Department at the University of Chicago.<br>
+My research interests are in industrial organization and energy & environmental economics.
 
 <div class="papers-section" markdown="0">
 
