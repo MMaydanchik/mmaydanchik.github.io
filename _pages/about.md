@@ -190,6 +190,7 @@ My research interests are in industrial organization & energy and environmental 
       <div class="toggle-row">
         <label for="nl-abstract" class="toggle-btn">Abstract</label>
         <a class="toggle-btn toggle-link" href="/files/NLsampling.pdf">PDF</a>
+        <a class="toggle-btn toggle-link" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7538980">SSRN</a>
       </div>
       <div id="nl-panel-abstract" class="toggle-panel">Nested logit models are simple to estimate, but nested logit errors have long resisted closed-form simulation. Galichon (2022) resolves a longstanding conjecture to show that nested logit errors decompose into standard Gumbel and positive stable components. I combine this result with the Kanter (1975) representation of positive stable variables to demonstrate a method for simulating error vectors for arbitrary trees. The method is fast, exact, and scales well. Monte Carlo simulations and timing benchmarks demonstrate its advantages over existing methods employing numerical inversion or moment-matching. It is a practical tool for discrete choice applications requiring full vectors of correlated shocks.</div>
     </div>
