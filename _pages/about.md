@@ -9,18 +9,21 @@ redirect_from:
   .papers-section {
     margin-top: 1.6em;
   }
+  .papers-section h1 {
+    font-weight: 600;
+    margin-bottom: 0.15em;
+  }
+  .paper-entry + h1 {
+    margin-top: 0.4em;
+  }
   .papers-section h3 {
     font-weight: 600;
     letter-spacing: 0.02em;
     margin-bottom: 0.6em;
   }
   .paper-entry {
-    padding: 1.4em 0;
+    padding: 0.9em 0;
     border-top: 1px solid #ececec;
-  }
-  .paper-entry:first-of-type {
-    border-top: none;
-    padding-top: 0.4em;
   }
   .paper-title {
     font-size: 1.05em;
@@ -35,7 +38,16 @@ redirect_from:
   .paper-meta {
     font-size: 0.85em;
     color: #767676;
-    margin-top: 0.2em;
+    /* tight leading and no gap between stacked meta lines (authors, updated,
+       status); the gap under the title is set separately just below */
+    line-height: 1.3;
+    margin-top: 0;
+  }
+  .paper-title + .paper-meta {
+    margin-top: 0.3em;
+  }
+  .paper-meta.paper-status {
+    font-size: 0.78em; /* one step below the author line (0.85em) */
   }
   .toggle-row {
     display: flex;
@@ -113,9 +125,9 @@ redirect_from:
      share of the entry constant at any zoom; max-width stops it growing past
      its present size on wide screens. */
   .paper-body .paper-figure {
-    flex: 0 0 33%;
-    width: 33%;
-    max-width: 370px;
+    flex: 0 0 28%;
+    width: 28%;
+    max-width: 315px;
     aspect-ratio: 320 / 203;
     display: flex;
     align-items: center;
@@ -149,10 +161,22 @@ redirect_from:
   }
 </style>
 
-Hi! I'm a PhD candidate in the Economics Department at the University of Chicago.<br>
-My research interests are in industrial organization & energy and environmental economics.
+I am a PhD candidate in the Kenneth C. Griffin Department of Economics at the University of Chicago.
+<span style="display: block; margin-top: 0.4em;">My research interests are in industrial organization & energy and environmental economics.</span>
+<span style="display: block; margin-top: 0.4em;"><b>I am on the 2026-2027 job market.</b> <a href="/files/CV_maydanchik.pdf">[CV]</a></span>
 
 <div class="papers-section" markdown="0">
+
+<h1>Job Market Paper</h1>
+
+<div class="paper-entry">
+  <div class="paper-body">
+    <div class="paper-text">
+      <span class="paper-title">Salesforce Competition in Residential Solar</span>
+      <div class="paper-meta paper-status"><em>Draft coming soon</em></div>
+    </div>
+  </div>
+</div>
 
 <h1>Working Papers</h1>
 
@@ -161,7 +185,8 @@ My research interests are in industrial organization & energy and environmental 
     <div class="paper-text">
       <a class="paper-title" href="/files/EVTrade.pdf">The Effects of &ldquo;Buy American&rdquo;: Electric Vehicles and the Inflation Reduction Act</a>
       <div class="paper-meta">with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot</div>
-      <div class="paper-meta"><em>Revise and Resubmit</em> at <em>American Economic Review</em></div>
+      <div class="paper-meta paper-status">Updated March 2026</div>
+      <div class="paper-meta paper-status"><em>Revise and Resubmit</em> at <em>American Economic Review</em></div>
 
       <input type="checkbox" id="ev-abstract" class="toggle-radio">
       <input type="checkbox" id="ev-media" class="toggle-radio">
@@ -184,7 +209,8 @@ My research interests are in industrial organization & energy and environmental 
   <div class="paper-body">
     <div class="paper-text">
       <a class="paper-title" href="/files/NLsampling.pdf">Exact Simulation of Nested Logit Draws</a>
-      <!-- <div class="paper-meta">In preparation for submission</div> -->
+      <div class="paper-meta paper-status">Updated September 2026</div>
+      <div class="paper-meta paper-status"><em>In preparation for submission</em></div>
 
       <input type="checkbox" id="nl-abstract" class="toggle-radio">
       <div class="toggle-row">
@@ -200,10 +226,14 @@ My research interests are in industrial organization & energy and environmental 
   </div>
 </div>
 
+<h1>Works in Progress</h1>
+
+<div class="paper-entry">
+  <div class="paper-body">
+    <div class="paper-text">
+      <span class="paper-title">Bunching at Price Ceilings: Evidence from a Solar Rebate</span>
+    </div>
+  </div>
 </div>
 
-### Works In Progress
-<div>
-"Salesforce Competition in Residential Solar"
 </div>
-

@@ -33,6 +33,11 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($large) {
+      padding-left: $gutter-mid;
+      padding-right: $gutter-mid;
+    }
+
+    @include breakpoint($x-large) {
       padding-left: $gutter-wide;
       padding-right: $gutter-wide;
     }
@@ -82,9 +87,9 @@
   display: block;
   color: $masthead-title-color;
   line-height: 1;
-  font-size: 26px;
+  font-size: 24px;
 
   @include breakpoint($large) {
-    font-size: 46px;
+    font-size: 42px;
   }
 }

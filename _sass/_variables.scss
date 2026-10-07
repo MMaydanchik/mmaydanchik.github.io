@@ -43,8 +43,8 @@ $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
 /* masthead properties */
-$masthead-height            : 52px;
-$masthead-height-mobile     : 38px;
+$masthead-height            : 56px;
+$masthead-height-mobile     : 40px;
 
 /* Sidebar properties */
 $sidebar-screen-min-width   : 1024px;
@@ -144,6 +144,10 @@ $content-max-width          : 1680px !default;
    any zoom, so zooming only changes the text size. */
 $gutter-narrow              : 5% !default;
 $gutter-wide                : 12% !default;
+/* Side gutter for in-between widths (from $large up to $x-large, e.g. a window
+   snapped to half of a desktop screen): the sidebar and body run nearly
+   edge to edge, and the full $gutter-wide only returns on big screens. */
+$gutter-mid                 : 2.5% !default;
 
 /* Sidebar width as a share of the content box (percentage for the same
    zoom-stability reason as the gutters above). ~16.5% reproduces the previous

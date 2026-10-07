@@ -30,6 +30,9 @@
     /* proportional, like the page gutters, so zoom keeps the column ratio */
     width: $sidebar-width;
     flex: 0 0 $sidebar-width;
+    /* keeps the photo and bio from being squeezed on narrower windows; the
+       percentage already exceeds this on big screens */
+    min-width: 190px;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -177,7 +180,7 @@
 .sidebar .author__bio {
   margin: 0;
   font-size: $type-size-6;
-  line-height: 1.35;
+  line-height: 1.6;
 
   @include breakpoint($large) {
     margin-top: 10px;
