@@ -125,9 +125,9 @@ redirect_from:
      share of the entry constant at any zoom; max-width stops it growing past
      its present size on wide screens. */
   .paper-body .paper-figure {
-    flex: 0 0 28%;
-    width: 28%;
-    max-width: 315px;
+    flex: 0 0 23%;
+    width: 23%;
+    max-width: 260px;
     aspect-ratio: 320 / 203;
     display: flex;
     align-items: center;
