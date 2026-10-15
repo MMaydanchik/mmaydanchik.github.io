@@ -163,7 +163,7 @@ redirect_from:
 
 I am a PhD candidate in the Kenneth C. Griffin Department of Economics at the University of Chicago.
 <span style="display: block; margin-top: 0.4em;">My research interests are in industrial organization & energy and environmental economics.</span>
-<span style="display: block; margin-top: 0.4em;"><b>I am on the 2026-2027 job market.</b> <a href="/files/CV_maydanchik.pdf">[CV]</a></span>
+<span style="display: block; margin-top: 0.4em;"><b>I am on the 2026-2027 job market.</b> <a href="/files/Maydanchik_Resume.pdf">[CV]</a></span>
 
 <div class="papers-section" markdown="0">
 
