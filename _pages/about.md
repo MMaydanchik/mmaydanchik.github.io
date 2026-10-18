@@ -185,7 +185,7 @@ I am a PhD candidate in the Kenneth C. Griffin Department of Economics at the Un
     <div class="paper-text">
       <a class="paper-title" href="/files/EVTrade.pdf">The Effects of &ldquo;Buy American&rdquo;: Electric Vehicles and the Inflation Reduction Act</a>
       <div class="paper-meta">with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot</div>
-      <div class="paper-meta paper-status">Updated March 2026</div>
+      <div class="paper-meta paper-status">Updated October 2026</div>
       <div class="paper-meta paper-status"><em>Revise and Resubmit</em> at <em>American Economic Review</em></div>
 
       <input type="checkbox" id="ev-abstract" class="toggle-radio">
@@ -196,7 +196,7 @@ I am a PhD candidate in the Kenneth C. Griffin Department of Economics at the Un
         <a class="toggle-btn toggle-link" href="https://www.nber.org/papers/w33032">NBER WP</a>
         <label for="ev-media" class="toggle-btn">Media</label>
       </div>
-      <div id="ev-panel-abstract" class="toggle-panel">We provide the first ex post microeconomic welfare analysis of the electric vehicle (EV) tax credits in the Inflation Reduction Act (IRA). Relative to pre-IRA policy, the credits generated $1.96 in domestic benefits per dollar of government spending, with taxpayer cost of $36,500 per additional EV. Relative to having no EV credits, they yielded $1.11 in domestic benefits per dollar of government spending. A leasing loophole that sidestepped domestic content rules created negative domestic benefits. A prominent example of green industrial policy, the credits harmed foreign countries by shifting surplus to domestic producers and helped them by decreasing CO<sub>2</sub> emissions.</div>
+      <div id="ev-panel-abstract" class="toggle-panel">We provide the first ex post microeconomic welfare analysis of the electric vehicle (EV) tax credits in the Inflation Reduction Act (IRA). Relative to pre-IRA policy, the credits generated $1.92 in domestic benefits per dollar of government spending. Relative to having no EV credits, they yielded $1.10 in domestic benefits per dollar of government spending, with subsidy spending of $32,100 per additional EV. A leasing loophole that sidestepped domestic content rules created negative domestic benefits. A prominent example of green industrial policy, the credits harmed foreign countries by shifting surplus to domestic producers and helped them by decreasing CO<sub>2</sub> emissions.</div>
       <div id="ev-panel-media" class="toggle-panel"><a href="https://energyathaas.wordpress.com/2024/10/07/will-the-iras-buy-american-tilt-help-us-electric-vehicles/">Energy Institute Blog</a> &middot; <a href="https://www.nytimes.com/2024/10/07/business/economy/electric-vehicle-tax-credits-study.html">New York Times (October 2024)</a> &middot; <a href="https://www.bloomberg.com/news/articles/2024-11-19/us-electric-vehicle-demand-seen-plunging-27-without-tax-credit">Bloomberg</a> &middot; <a href="https://www.nytimes.com/2024/11/25/business/trump-electric-vehicle-tax-credit.html">New York Times (November 2024)</a> &middot; <a href="https://www.ft.com/content/e8f623e1-c75a-478e-ad8f-aa5b05ef6aa0">Financial Times</a> &middot; <a href="https://finance.yahoo.com/news/not-trivial-ev-sales-could-drop-nearly-30-if-trump-repeals-tax-credit-194135070.html">Yahoo Finance</a></div>
     </div>
     <div class="paper-figure">
