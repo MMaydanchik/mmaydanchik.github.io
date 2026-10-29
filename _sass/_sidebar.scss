@@ -101,10 +101,12 @@
   }
 }
 
+/* On phones the photo takes a row of its own, centred, with the links on a
+   single centred line beneath it; the bio is shown only on wide screens. */
 .author__avatar {
   display: block;
-  flex: 0 0 72px;
-  width: 72px;
+  flex: 0 0 100%;
+  width: 100%;
   align-self: flex-start;
 
   @include breakpoint($large) {
@@ -119,12 +121,14 @@
 
   img {
     display: block;
-    width: 100%;
+    width: 200px;
     max-width: 100%;
-    margin-left: 0;
+    margin: 0 auto;
     border-radius: 5%;
 
     @include breakpoint($large) {
+      width: 100%;
+      margin: 0;
       padding: 0;
       border: 0px solid $border-color;
     }
@@ -132,15 +136,14 @@
 }
 
 .author__content {
-  display: block;
-  flex: 1 1 140px;
+  display: none;
   min-width: 0;
   padding-left: 0;
-  padding-right: 12px;
   line-height: 1;
   align-self: flex-start;
 
   @include breakpoint($large) {
+    display: block;
     flex: 0 1 auto;
     width: 100%;
     padding-right: 0;
@@ -191,11 +194,10 @@
 .author__urls-wrapper {
   position: relative;
   display: block;
-  flex: 0 1 190px;
-  max-width: 190px;
-  margin-left: auto;
+  flex: 1 1 100%;
+  margin-left: 0;
   font-family: $sans-serif;
-  text-align: right;
+  text-align: center;
   align-self: flex-start;
   z-index: 10;
   cursor: pointer;
@@ -219,8 +221,9 @@
   }
 }
 
+/* inline on phones so the two lists run together as one line of links */
 .author__urls {
-  display: block;
+  display: inline;
   position: relative;
   right: auto;
   margin: 0;
@@ -230,16 +233,13 @@
   background: transparent;
   box-shadow: none;
   white-space: normal;
-  text-align: right;
   line-height: 1.35;
   z-index: 10;
   cursor: default;
 
   li {
     display: inline-block;
-    margin-left: 0.5em;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin: 0 0.45em;
     white-space: nowrap;
   }
 
@@ -264,6 +264,7 @@
   }
 
   @include breakpoint($large) {
+    display: block;
     text-align: left;
     line-height: inherit;
 
@@ -275,8 +276,7 @@
        identically, including items that have no anchor at all. */
     li {
       display: list-item;
-      margin-left: 0;
-      margin-bottom: 0.5em;
+      margin: 0 0 0.5em;
     }
 
     a {
@@ -292,25 +292,4 @@
 
 .author__urls--row2 {
   margin-top: 0;
-}
-
-/* Narrow phones / very high zoom: give the links their own full-width row,
-   aligned to the same left edge as the avatar, rather than letting them wrap
-   into a right-aligned block with empty space beside it. */
-@include breakpoint(max-width $profile-stack-max) {
-  .author__urls-wrapper {
-    flex: 1 1 100%;
-    max-width: none;
-    margin-left: 0;
-    text-align: left;
-  }
-
-  .author__urls {
-    text-align: left;
-
-    li {
-      margin-left: 0;
-      margin-right: 0.9em;
-    }
-  }
 }
