@@ -173,13 +173,13 @@ I am a PhD candidate in the Economics Department at the University of Chicago.
 <div class="paper-entry">
   <div class="paper-body">
     <div class="paper-text">
-      <a class="paper-title" href="/files/maydanchik_solarsales.pdf">Salesforce Competition in Residential Solar</a>
+      <a class="paper-title" href="https://www.dropbox.com/scl/fi/r6l3busv6uszk893eujgf/maydanchik_solarsales.pdf?rlkey=r6t0zcaixrw7sp7r1d1l5ljuf&amp;raw=1">Salesforce Competition in Residential Solar</a>
       <div class="paper-meta paper-status">Updated October 2026</div>
 
       <input type="checkbox" id="solar-abstract" class="toggle-radio" checked>
       <div class="toggle-row">
         <label for="solar-abstract" class="toggle-btn">Abstract</label>
-        <a class="toggle-btn toggle-link" href="/files/maydanchik_solarsales.pdf">PDF</a>
+        <a class="toggle-btn toggle-link" href="https://www.dropbox.com/scl/fi/r6l3busv6uszk893eujgf/maydanchik_solarsales.pdf?rlkey=r6t0zcaixrw7sp7r1d1l5ljuf&amp;raw=1">PDF</a>
       </div>
       <div id="solar-panel-abstract" class="toggle-panel">I study how door-to-door salespeople affect market outcomes in the California residential solar industry. I combine data on installations with a novel dataset on registered salespeople, as well as utility billing records, to estimate a model of demand and supply where firms endogenously set prices and hire local salesforces. Salespeople increase adoption by 17 percent relative to a counterfactual where salespeople are banned. Yet much of the salesforce exists because of business stealing: salesforces that maximized joint industry profits would be 55 percent smaller with only 4 percent fewer systems sold. On average, agents cost less than the environmental benefit of the additional installations they bring, but the marginal agent costs nearly twice as much as its environmental benefit. Most households brought into the market by agents earn internal rates of return above typical borrowing rates, but 86 percent would lose money at higher rates that concern regulators. Because net metering subsidizes adoption at the expense of other ratepayers, the market expansion due to agents lowers social welfare.</div>
     </div>
