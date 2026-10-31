@@ -29,7 +29,7 @@ author:
     Economics PhD Candidate
     University of Chicago
     mmaydanchik [at] uchicago [dot] edu
-  cv               : "/files/Maydanchik_Resume.pdf"
+  cv               : # blank hides the sidebar CV link; CV and resume are linked from about.md
   email            : "mmaydanchik@uchicago.edu"
   github           : "MMaydanchik" 
   linkedin         : "max-maydanchik-794aa3115/"
