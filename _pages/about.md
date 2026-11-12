@@ -174,7 +174,7 @@ I am a PhD candidate in the Economics Department at the University of Chicago.
   <div class="paper-body">
     <div class="paper-text">
       <a class="paper-title" href="https://www.dropbox.com/scl/fi/r6l3busv6uszk893eujgf/maydanchik_solarsales.pdf?rlkey=r6t0zcaixrw7sp7r1d1l5ljuf&amp;raw=1">Salesforce Competition in Residential Solar</a>
-      <div class="paper-meta paper-status">Updated October 2026</div>
+      <div class="paper-meta paper-status">Updated November 2026</div>
 
       <input type="checkbox" id="solar-abstract" class="toggle-radio" checked>
       <div class="toggle-row">
