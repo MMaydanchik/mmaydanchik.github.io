@@ -174,7 +174,7 @@ I am a PhD candidate in the Economics Department at the University of Chicago.
   <div class="paper-body">
     <div class="paper-text">
       <a class="paper-title" href="https://www.dropbox.com/scl/fi/r6l3busv6uszk893eujgf/maydanchik_solarsales.pdf?rlkey=r6t0zcaixrw7sp7r1d1l5ljuf&amp;raw=1">Salesforce Competition in Residential Solar</a>
-      <div class="paper-meta paper-status">October 2026 (Updated November 2026)</div>
+      <div class="paper-meta paper-status">Updated November 2026</div>
 
       <input type="checkbox" id="solar-abstract" class="toggle-radio" checked>
       <div class="toggle-row">
@@ -196,7 +196,7 @@ I am a PhD candidate in the Economics Department at the University of Chicago.
     <div class="paper-text">
       <a class="paper-title" href="/files/EVTrade.pdf">The Effects of &ldquo;Buy American&rdquo;: Electric Vehicles and the Inflation Reduction Act</a>
       <div class="paper-meta">with Hunt Allcott, Reigner Kane, Joseph S. Shapiro, and Felix Tintelnot</div>
-      <div class="paper-meta paper-status">October 2024 (Updated October 2026)</div>
+      <div class="paper-meta paper-status">Updated October 2026</div>
       <div class="paper-meta paper-status"><em>Revise and Resubmit</em> at <em>American Economic Review</em></div>
 
       <input type="checkbox" id="ev-abstract" class="toggle-radio">
@@ -220,7 +220,7 @@ I am a PhD candidate in the Economics Department at the University of Chicago.
   <div class="paper-body">
     <div class="paper-text">
       <a class="paper-title" href="/files/NLsampling.pdf">Exact Simulation of Nested Logit Draws</a>
-      <div class="paper-meta paper-status">September 2026</div>
+      <div class="paper-meta paper-status">Updated September 2026</div>
       <div class="paper-meta paper-status"><em>In preparation for submission</em></div>
 
       <input type="checkbox" id="nl-abstract" class="toggle-radio">
